@@ -20,9 +20,11 @@ Before running the project, ensure the following are installed:
 ### 🖥 Software Requirements  
 - **VS Code** (Recommended for editing)  
 - **Python 3.8.5 (64-bit)**  
-- **MySQL Lite** (Create a database as mentioned in project files)  
+- **MySQL WORKBRENCH** (Create a database as mentioned in project files)  
 
 ### 📦 Python Libraries  
 Install required dependencies using:  
 ```bash
 pip install -r requirements.txt
+pip install opencv-python numpy pillow mysql-connector-python tkinter
+
